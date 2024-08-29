@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav {
+  background: #e3bc9a;
+}
+
+.image {
+  border-bottom-left-radius: 150px;
+  height: 380px;
+}
+
+.div-image {
+  width: 300px;
+  height: 300px;
+}
+
+.fashion-image {
+  background-color: #e3bc9a;
+  border-top-left-radius: 100px;
+}
+
+.fashion-image-img {
+  border-top-left-radius: 100px;
+}
+
+.fashion-text .h1 {
+  font-size: 70px;
+}
+
+@media (max-width: 767px) {
+  .year-text {
+    margin: auto !important;
+  }
+
+  .image{
+    height: 300px;
+  }
+}
